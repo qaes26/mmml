@@ -1,0 +1,1006 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Fundamentals Exam Questions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f9;
+            color: #333;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            text-align: center;
+            color: #2c3e50;
+            margin-bottom: 40px;
+        }
+        h2 {
+            color: #e67e22;
+            border-bottom: 2px solid #e67e22;
+            padding-bottom: 10px;
+            margin-top: 40px;
+        }
+        .question-card {
+            background: white;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .question-text {
+            font-weight: bold;
+            font-size: 1.1em;
+            margin-bottom: 15px;
+        }
+        .options {
+            list-style-type: none;
+            padding: 0;
+        }
+        .options li {
+            margin-bottom: 8px;
+            padding: 8px;
+            background-color: #f8f9fa;
+            border-radius: 4px;
+            border: 1px solid #ddd;
+        }
+        .btn-answer {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 10px;
+            font-size: 0.9em;
+        }
+        .btn-answer:hover {
+            background-color: #2980b9;
+        }
+        .answer-box {
+            display: none;
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #dff0d8;
+            border-left: 5px solid #3c763d;
+            color: #3c763d;
+        }
+        .citation {
+            font-size: 0.8em;
+            color: #666;
+            font-style: italic;
+            display: block;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>60 Questions: Computer Fundamentals</h1>
+    <p style="text-align: center;">Based on Chapters 2, 3, and 4.</p>
+
+    <h2>Chapter 4: Computer Software</h2>
+
+    <div class="question-card">
+        <div class="question-text">1. What are the step-by-step procedures that tell computers what to do called?</div>
+        <ul class="options">
+            <li>A. Hardware</li>
+            <li>B. Software</li>
+            <li>C. Peripherals</li>
+            <li>D. Circuits</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a1')">Show Answer</button>
+        <div id="a1" class="answer-box">
+            <strong>Answer: B. Software</strong>
+            [cite_start]<span class="citation">Source: "These instructions, called programs or software..." [cite: 593]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">2. Why has the cost of software increased relative to hardware since the 1950s?</div>
+        <ul class="options">
+            <li>A. Hardware has become more expensive</li>
+            <li>B. Software is now mass-produced on assembly lines</li>
+            <li>C. Software development is slow, complex, and manual</li>
+            <li>D. There are fewer programmers today</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a2')">Show Answer</button>
+        <div id="a2" class="answer-box">
+            <strong>Answer: C. Software development is slow, complex, and manual</strong>
+            [cite_start]<span class="citation">Source: "The software development process is usually slow, complex, error prone and expensive." [cite: 599]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">3. What is the "Software Crisis"?</div>
+        <ul class="options">
+            <li>A. The lack of hardware to run new apps</li>
+            <li>B. Organizations unable to develop software fast enough to keep up with changing conditions</li>
+            <li>C. The high cost of electricity for data centers</li>
+            <li>D. The disappearance of assembly language</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a3')">Show Answer</button>
+        <div id="a3" class="answer-box">
+            <strong>Answer: B. Organizations unable to develop software fast enough to keep up with changing conditions</strong>
+            [cite_start]<span class="citation">Source: "Organizations are unable to develop new software applications fast enough to keep up with rapidly changing business conditions..." [cite: 601]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">4. Which level of software is considered the most basic abstraction closest to the hardware?</div>
+        <ul class="options">
+            <li>A. High-level language</li>
+            <li>B. Operating System</li>
+            <li>C. Assembly Code</li>
+            <li>D. Application Software</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a4')">Show Answer</button>
+        <div id="a4" class="answer-box">
+            <strong>Answer: C. Assembly Code</strong>
+            [cite_start]<span class="citation">Source: "Assembly Code is the most basic of abstraction." [cite: 607]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">5. What characterizes RISC (Reduced Instruction Set Computer) architecture?</div>
+        <ul class="options">
+            <li>A. High power consumption and compatibility</li>
+            <li>B. Large number of instructions</li>
+            <li>C. Fast, low power, and fewer instructions</li>
+            <li>D. Used primarily in servers</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a5')">Show Answer</button>
+        <div id="a5" class="answer-box">
+            <strong>Answer: C. Fast, low power, and fewer instructions</strong>
+            [cite_start]<span class="citation">Source: "RISC... (fast + low power + less number of instructions)" [cite: 608]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">6. What is the main function of the BIOS?</div>
+        <ul class="options">
+            <li>A. To edit Word documents</li>
+            <li>B. To provide a link between software and hardware</li>
+            <li>C. To compress files</li>
+            <li>D. To browse the internet</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a6')">Show Answer</button>
+        <div id="a6" class="answer-box">
+            <strong>Answer: B. To provide a link between software and hardware</strong>
+            [cite_start]<span class="citation">Source: "The purpose of this system is to give software a link to the hardware." [cite: 611]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">7. Where is the BIOS typically stored?</div>
+        <ul class="options">
+            <li>A. On the Hard Drive</li>
+            <li>B. On a RAM stick</li>
+            <li>C. On a ROM-chip (Firmware)</li>
+            <li>D. On the CD-ROM</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a7')">Show Answer</button>
+        <div id="a7" class="answer-box">
+            <strong>Answer: C. On a ROM-chip (Firmware)</strong>
+            [cite_start]<span class="citation">Source: "BIOS... is a small program permanently stored on a ROM-chip... called firmware" [cite: 610, 612]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">8. What do drivers do?</div>
+        <ul class="options">
+            <li>A. Drive the cooling fans</li>
+            <li>B. Translate generic program instructions into instructions for specific hardware</li>
+            <li>C. Provide a graphical user interface</li>
+            <li>D. Protect the computer from viruses</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a8')">Show Answer</button>
+        <div id="a8" class="answer-box">
+            <strong>Answer: B. Translate generic program instructions into instructions for specific hardware</strong>
+            [cite_start]<span class="citation">Source: "Drivers are small programs that translate the program’s generic instructions into instructions for a specific piece of hardware" [cite: 616]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">9. Which of the following is considered a Utility Program?</div>
+        <ul class="options">
+            <li>A. MS Word</li>
+            <li>B. Antivirus software</li>
+            <li>C. BIOS</li>
+            <li>D. Java</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a9')">Show Answer</button>
+        <div id="a9" class="answer-box">
+            <strong>Answer: B. Antivirus software</strong>
+            [cite_start]<span class="citation">Source: "Antivirus utilities to protect your system from viruses." [cite: 622]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">10. Who developed the first Graphical User Interface (GUI)?</div>
+        <ul class="options">
+            <li>A. Microsoft</li>
+            <li>B. Apple</li>
+            <li>C. Xerox</li>
+            <li>D. IBM</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a10')">Show Answer</button>
+        <div id="a10" class="answer-box">
+            <strong>Answer: C. Xerox</strong>
+            [cite_start]<span class="citation">Source: "Developed at a company called Xerox, in the 70s..." [cite: 625]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">11. Which interface uses a stylus to write on the screen?</div>
+        <ul class="options">
+            <li>A. GUI</li>
+            <li>B. Command Line</li>
+            <li>C. Pen-based interface</li>
+            <li>D. Conversational interface</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a11')">Show Answer</button>
+        <div id="a11" class="answer-box">
+            <strong>Answer: C. Pen-based interface</strong>
+            [cite_start]<span class="citation">Source: "Pen-based interface... You use a stylus to write on the screen" [cite: 629, 630]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">12. Which of the following is a High-Level Language?</div>
+        <ul class="options">
+            <li>A. Assembly</li>
+            <li>B. Java</li>
+            <li>C. Machine Code (0s & 1s)</li>
+            <li>D. BIOS</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a12')">Show Answer</button>
+        <div id="a12" class="answer-box">
+            <strong>Answer: B. Java</strong>
+            [cite_start]<span class="citation">Source: "Examples: Java, Fortran, C++..." [cite: 633]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">13. What is a "Horizontal Market Application"?</div>
+        <ul class="options">
+            <li>A. Software for a specific industry only</li>
+            <li>B. General tasks used by almost everyone (e.g., Word Processing)</li>
+            <li>C. Software that runs on tablets only</li>
+            <li>D. Custom-made software for one company</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a13')">Show Answer</button>
+        <div id="a13" class="answer-box">
+            <strong>Answer: B. General tasks used by almost everyone (e.g., Word Processing)</strong>
+            [cite_start]<span class="citation">Source: "Horizontal Market Applications: These are used to perform basic and general tasks, they can be used almost by everyone..." [cite: 635]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">14. An airline ticket reservation system is an example of what type of application?</div>
+        <ul class="options">
+            <li>A. Horizontal Market Application</li>
+            <li>B. Vertical Market Application</li>
+            <li>C. Utility Program</li>
+            <li>D. System Software</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a14')">Show Answer</button>
+        <div id="a14" class="answer-box">
+            <strong>Answer: B. Vertical Market Application</strong>
+            [cite_start]<span class="citation">Source: "Vertical Market Applications... Examples: Ticket Reservation & Selling - Airline Industry" [cite: 639]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">15. What are Custom Applications?</div>
+        <ul class="options">
+            <li>A. Cheap, off-the-shelf software</li>
+            <li>B. Software written specifically for a company's unique needs</li>
+            <li>C. Free software available on the internet</li>
+            <li>D. Software that controls the mouse</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a15')">Show Answer</button>
+        <div id="a15" class="answer-box">
+            <strong>Answer: B. Software written specifically for a company's unique needs</strong>
+            [cite_start]<span class="citation">Source: "Such companies decide to write (code) its own applications..." [cite: 641]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">16. What defines "Shareware"?</div>
+        <ul class="options">
+            <li>A. Completely free with no copyright</li>
+            <li>B. Source code is available to edit</li>
+            <li>C. Distributed for free/low fee for users to try before buying</li>
+            <li>D. Software that connects computers horizontally</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a16')">Show Answer</button>
+        <div id="a16" class="answer-box">
+            <strong>Answer: C. Distributed for free/low fee for users to try before buying</strong>
+            [cite_start]<span class="citation">Source: "Shareware are programs... distributed to be used by users for free or by little registration-fee." [cite: 643]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">17. How does "Freeware" differ from "Public Domain"?</div>
+        <ul class="options">
+            <li>A. Freeware has no copyright; Public Domain does.</li>
+            <li>B. Freeware retains copyright; Public Domain has no restrictions.</li>
+            <li>C. Freeware costs money; Public Domain is free.</li>
+            <li>D. They are exactly the same.</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a17')">Show Answer</button>
+        <div id="a17" class="answer-box">
+            <strong>Answer: B. Freeware retains copyright; Public Domain has no restrictions.</strong>
+            [cite_start]<span class="citation">Source: "Freeware: Software to which the author... still retains copyright (unlike public domain)..." [cite: 645, 646]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">18. What is the key characteristic of Open Source software?</div>
+        <ul class="options">
+            <li>A. It is always free of cost</li>
+            <li>B. The source code is available for modification and redistribution</li>
+            <li>C. It does not have a license</li>
+            <li>D. It only runs on Linux</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a18')">Show Answer</button>
+        <div id="a18" class="answer-box">
+            <strong>Answer: B. The source code is available for modification and redistribution</strong>
+            [cite_start]<span class="citation">Source: "Open source means that the source code is available to all potential users, and they are free to use, modify..." [cite: 648]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">19. Which software translates high-level human syntax into lower-level code?</div>
+        <ul class="options">
+            <li>A. The BIOS</li>
+            <li>B. The Driver</li>
+            <li>C. The Compiler</li>
+            <li>D. The Utility</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a19')">Show Answer</button>
+        <div id="a19" class="answer-box">
+            <strong>Answer: C. The Compiler</strong>
+            [cite_start]<span class="citation">Source: "...the 'Compiler' translates almost human syntax into lower level code." [cite: 633]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">20. Which of the following is an Operating System?</div>
+        <ul class="options">
+            <li>A. MS Word</li>
+            <li>B. Linux</li>
+            <li>C. Java</li>
+            <li>D. BIOS</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a20')">Show Answer</button>
+        <div id="a20" class="answer-box">
+            <strong>Answer: B. Linux</strong>
+            [cite_start]<span class="citation">Source: "Examples: ... Linux, HP Unix, Sun Solaris..." [cite: 609]</span>
+        </div>
+    </div>
+
+    <h2>Chapter 3: Computer Hardware</h2>
+
+    <div class="question-card">
+        <div class="question-text">21. Which component is considered the main circuit board of a computer?</div>
+        <ul class="options">
+            <li>A. CPU</li>
+            <li>B. Hard Disk</li>
+            <li>C. Motherboard</li>
+            <li>D. Power Supply</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a21')">Show Answer</button>
+        <div id="a21" class="answer-box">
+            <strong>Answer: C. Motherboard</strong>
+            [cite_start]<span class="citation">Source: "This is the main circuit board that all of the other internal components connect to." [cite: 1073]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">22. Which of these is an Input Device?</div>
+        <ul class="options">
+            <li>A. Printer</li>
+            <li>B. Speaker</li>
+            <li>C. Monitor</li>
+            <li>D. Keyboard</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a22')">Show Answer</button>
+        <div id="a22" class="answer-box">
+            <strong>Answer: D. Keyboard</strong>
+            [cite_start]<span class="citation">Source: "Keyboards... Standard Keyboard (considered as the Standard-Input-Unit)" [cite: 1078]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">23. What health issue is associated with intensive keyboard use?</div>
+        <ul class="options">
+            <li>A. Eye strain</li>
+            <li>B. Repetitive Stress Injuries (Carpal Tunnel Syndrome)</li>
+            <li>C. Hearing loss</li>
+            <li>D. Migraines</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a23')">Show Answer</button>
+        <div id="a23" class="answer-box">
+            <strong>Answer: B. Repetitive Stress Injuries (Carpal Tunnel Syndrome)</strong>
+            [cite_start]<span class="citation">Source: "Intensive use may cause problems: “Repetitive Stress Injuries” (Carpal Tunnel Syndrome)." [cite: 1078]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">24. What type of device is a trackball?</div>
+        <ul class="options">
+            <li>A. Output Device</li>
+            <li>B. Pointing Device</li>
+            <li>C. Storage Device</li>
+            <li>D. Scanning Device</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a24')">Show Answer</button>
+        <div id="a24" class="answer-box">
+            <strong>Answer: B. Pointing Device</strong>
+            [cite_start]<span class="citation">Source: "Pointing devices include: ... Trackball (Up-side-down mouse)." [cite: 1088]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">25. What does OCR stand for?</div>
+        <ul class="options">
+            <li>A. Optical Computer Reader</li>
+            <li>B. Optical Character Recognition</li>
+            <li>C. Open Character Reading</li>
+            <li>D. Output Control Register</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a25')">Show Answer</button>
+        <div id="a25" class="answer-box">
+            <strong>Answer: B. Optical Character Recognition</strong>
+            [cite_start]<span class="citation">Source: "Use Optical-Character-Recognition (OCR) software" [cite: 1092]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">26. What technology is mostly used in the banking industry for checks?</div>
+        <ul class="options">
+            <li>A. Barcode</li>
+            <li>B. OCR</li>
+            <li>C. MICR (Magnetic Ink Character Reader)</li>
+            <li>D. OMR</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a26')">Show Answer</button>
+        <div id="a26" class="answer-box">
+            <strong>Answer: C. MICR (Magnetic Ink Character Reader)</strong>
+            [cite_start]<span class="citation">Source: "Magnetic Ink Character Reader (MICR)... Mostly, is used in the banking industry." [cite: 1108]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">27. Which device detects pencil marks on a predetermined grid (e.g., exams)?</div>
+        <ul class="options">
+            <li>A. OMR (Optical Mark Reader)</li>
+            <li>B. Barcode Scanner</li>
+            <li>C. MICR</li>
+            <li>D. Digital Camera</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a27')">Show Answer</button>
+        <div id="a27" class="answer-box">
+            <strong>Answer: A. OMR (Optical Mark Reader)</strong>
+            [cite_start]<span class="citation">Source: "Optical Mark Reader... detecting the presence of pencil marks on a predetermined grid" [cite: 1106]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">28. Which storage type is volatile (loses data when power is off)?</div>
+        <ul class="options">
+            <li>A. ROM</li>
+            <li>B. Hard Disk</li>
+            <li>C. RAM</li>
+            <li>D. Flash Memory</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a28')">Show Answer</button>
+        <div id="a28" class="answer-box">
+            <strong>Answer: C. RAM</strong>
+            [cite_start]<span class="citation">Source: "Random Access Memory (RAM)... Virtual Memory (volatile)" [cite: 1182]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">29. What is the approximate size of 1 Petabyte?</div>
+        <ul class="options">
+            <li>A. 2^30 Bytes</li>
+            <li>B. 2^40 Bytes</li>
+            <li>C. 2^50 Bytes</li>
+            <li>D. 2^70 Bytes</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a29')">Show Answer</button>
+        <div id="a29" class="answer-box">
+            <strong>Answer: C. 2^50 Bytes</strong>
+            [cite_start]<span class="citation">Source: "1 Petabyte 2^50 Byte" [cite: 1137]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">30. Which register stores the address of the memory location to be accessed?</div>
+        <ul class="options">
+            <li>A. MDR (Memory Data Register)</li>
+            <li>B. MAR (Memory Address Register)</li>
+            <li>C. ALU</li>
+            <li>D. Cache</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a30')">Show Answer</button>
+        <div id="a30" class="answer-box">
+            <strong>Answer: B. MAR (Memory Address Register)</strong>
+            [cite_start]<span class="citation">Source: "MAR: Memory Address Register... Load the address into MAR." [cite: 1140]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">31. What is Cache Memory?</div>
+        <ul class="options">
+            <li>A. Slow, large memory</li>
+            <li>B. Memory used for booting only</li>
+            <li>C. Faster, closer to CPU, stores frequently used info</li>
+            <li>D. Memory on a CD-ROM</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a31')">Show Answer</button>
+        <div id="a31" class="answer-box">
+            <strong>Answer: C. Faster, closer to CPU, stores frequently used info</strong>
+            [cite_start]<span class="citation">Source: "Cache Memory... Closer to CPU & faster than RAM... Used to store information... used most often" [cite: 1146]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">32. Which type of ROM can be erased and reprogrammed?</div>
+        <ul class="options">
+            <li>A. Standard ROM</li>
+            <li>B. EPROM</li>
+            <li>C. RAM</li>
+            <li>D. Cache</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a32')">Show Answer</button>
+        <div id="a32" class="answer-box">
+            <strong>Answer: B. EPROM</strong>
+            [cite_start]<span class="citation">Source: "EPROM: Erasable PROM, can reprogrammed..." [cite: 1152]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">33. How does magnetic storage record data?</div>
+        <ul class="options">
+            <li>A. By burning pits and lands</li>
+            <li>B. By changing the polarity of magnetic particles</li>
+            <li>C. By punching holes in paper</li>
+            <li>D. By using electron traps in crystals</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a33')">Show Answer</button>
+        <div id="a33" class="answer-box">
+            <strong>Answer: B. By changing the polarity of magnetic particles</strong>
+            [cite_start]<span class="citation">Source: "...change the polarity of tiny magnetic particles on the surface... to record 0s & 1s." [cite: 1159]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">34. In Optical Storage, what represents binary data?</div>
+        <ul class="options">
+            <li>A. North and South poles</li>
+            <li>B. Pits (dark) and Lands (shiny)</li>
+            <li>C. High and Low voltage</li>
+            <li>D. Black and White bars</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a34')">Show Answer</button>
+        <div id="a34" class="answer-box">
+            <strong>Answer: B. Pits (dark) and Lands (shiny)</strong>
+            [cite_start]<span class="citation">Source: "Optical storage devices use a laser to burn small, dark pits... Pits reflect less light." [cite: 1161]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">35. What is the main advantage of Solid State Storage (Flash Memory)?</div>
+        <ul class="options">
+            <li>A. It is the cheapest per gigabyte</li>
+            <li>B. It uses magnetic tape</li>
+            <li>C. It has no moving parts and is faster than mechanical disks</li>
+            <li>D. It has unlimited capacity</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a35')">Show Answer</button>
+        <div id="a35" class="answer-box">
+            <strong>Answer: C. It has no moving parts and is faster than mechanical disks</strong>
+            [cite_start]<span class="citation">Source: "They have no moving parts → much faster than mechanically operated disks..." [cite: 1175]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">36. Which storage medium stores approx 4.7 GB on a single side?</div>
+        <ul class="options">
+            <li>A. CD-ROM</li>
+            <li>B. Floppy Disk</li>
+            <li>C. DVD</li>
+            <li>D. ZIP Disk</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a36')">Show Answer</button>
+        <div id="a36" class="answer-box">
+            <strong>Answer: C. DVD</strong>
+            [cite_start]<span class="citation">Source: "DVD-Discs may store up to 4.7 GB on a single-sided..." [cite: 1169]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">37. What are the concentric circles on a hard disk platter called?</div>
+        <ul class="options">
+            <li>A. Sectors</li>
+            <li>B. Tracks</li>
+            <li>C. Cylinders</li>
+            <li>D. Pits</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a37')">Show Answer</button>
+        <div id="a37" class="answer-box">
+            <strong>Answer: B. Tracks</strong>
+            [cite_start]<span class="citation">Source: [Diagram referencing Tracks, Sectors, Platters] [cite: 1181]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">38. Which input device captures images using Charge-Coupled-Devices (CCD)?</div>
+        <ul class="options">
+            <li>A. Digital Camera</li>
+            <li>B. Barcode Scanner</li>
+            <li>C. Microphone</li>
+            <li>D. Plotter</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a38')">Show Answer</button>
+        <div id="a38" class="answer-box">
+            <strong>Answer: A. Digital Camera</strong>
+            [cite_start]<span class="citation">Source: "Digital Camera can capture images using the receptors called Charge-Coupled-Devices (CCD)" [cite: 1115]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">39. What does a "Fetch" operation do in memory?</div>
+        <ul class="options">
+            <li>A. Writes data to the hard drive</li>
+            <li>B. Copies contents of a memory location into the MDR</li>
+            <li>C. Deletes data from ROM</li>
+            <li>D. Turns off the computer</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a39')">Show Answer</button>
+        <div id="a39" class="answer-box">
+            <strong>Answer: B. Copies contents of a memory location into the MDR</strong>
+            [cite_start]<span class="citation">Source: "Fetch (address)... Copy the contents of that memory location into MDR." [cite: 1141]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">40. What is "Virtual Reality" an application of?</div>
+        <ul class="options">
+            <li>A. Barcode scanning</li>
+            <li>B. Text processing</li>
+            <li>C. Input/Output simulation (giving the feeling of a different space)</li>
+            <li>D. Database management</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a40')">Show Answer</button>
+        <div id="a40" class="answer-box">
+            <strong>Answer: C. Input/Output simulation (giving the feeling of a different space)</strong>
+            [cite_start]<span class="citation">Source: "Virtual Reality gives you the feeling that you are experiencing a different space..." [cite: 1119]</span>
+        </div>
+    </div>
+
+    <h2>Chapter 2: Number Systems</h2>
+
+    <div class="question-card">
+        <div class="question-text">41. What is the base of the Binary system?</div>
+        <ul class="options">
+            <li>A. 8</li>
+            <li>B. 10</li>
+            <li>C. 2</li>
+            <li>D. 16</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a41')">Show Answer</button>
+        <div id="a41" class="answer-box">
+            <strong>Answer: C. 2</strong>
+            [cite_start]<span class="citation">Source: "Binary... Symbols 0, 1" [cite: 677]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">42. What symbols are used in the Hexadecimal system?</div>
+        <ul class="options">
+            <li>A. 0-9 only</li>
+            <li>B. 0-7</li>
+            <li>C. 0-9 and A-F</li>
+            <li>D. 0-1</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a42')">Show Answer</button>
+        <div id="a42" class="answer-box">
+            <strong>Answer: C. 0-9 and A-F</strong>
+            [cite_start]<span class="citation">Source: "Hexadecimal... Symbols 0-9, A-F" [cite: 679]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">43. What is the decimal value of the binary number 11001?</div>
+        <ul class="options">
+            <li>A. 19</li>
+            <li>B. 25</li>
+            <li>C. 31</li>
+            <li>D. 12</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a43')">Show Answer</button>
+        <div id="a43" class="answer-box">
+            <strong>Answer: B. 25</strong>
+            [cite_start]<span class="citation">Source: "Quick Example 25(10) = 11001(2)" [cite: 791]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">44. In binary addition, what is 1 + 1?</div>
+        <ul class="options">
+            <li>A. 2</li>
+            <li>B. 0</li>
+            <li>C. 10 (0 carry 1)</li>
+            <li>D. 11</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a44')">Show Answer</button>
+        <div id="a44" class="answer-box">
+            <strong>Answer: C. 10 (0 carry 1)</strong>
+            <span class="citation">Source: (Standard binary addition rules covered in slides 965-992)</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">45. What is the Hexadecimal equivalent of decimal 12?</div>
+        <ul class="options">
+            <li>A. A</li>
+            <li>B. B</li>
+            <li>C. C</li>
+            <li>D. D</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a45')">Show Answer</button>
+        <div id="a45" class="answer-box">
+            <strong>Answer: C. C</strong>
+            [cite_start]<span class="citation">Source: "12 = C" [cite: 792]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">46. To convert Binary to Octal, how many bits do you group together?</div>
+        <ul class="options">
+            <li>A. 2</li>
+            <li>B. 3</li>
+            <li>C. 4</li>
+            <li>D. 5</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a46')">Show Answer</button>
+        <div id="a46" class="answer-box">
+            <strong>Answer: B. 3</strong>
+            [cite_start]<span class="citation">Source: "Group bits in threes, starting on right" [cite: 808]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">47. To convert Binary to Hexadecimal, how many bits do you group together?</div>
+        <ul class="options">
+            <li>A. 2</li>
+            <li>B. 3</li>
+            <li>C. 4</li>
+            <li>D. 8</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a47')">Show Answer</button>
+        <div id="a47" class="answer-box">
+            <strong>Answer: C. 4</strong>
+            [cite_start]<span class="citation">Source: "Group bits in fours, starting on right" [cite: 810]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">48. What is the result of 101011 (binary) to decimal?</div>
+        <ul class="options">
+            <li>A. 43</li>
+            <li>B. 32</li>
+            <li>C. 45</li>
+            <li>D. 50</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a48')">Show Answer</button>
+        <div id="a48" class="answer-box">
+            <strong>Answer: A. 43</strong>
+            [cite_start]<span class="citation">Source: "Binary to Decimal Example 101011(2) => ... = 43(10)" [cite: 791, 792]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">49. What is the weight of the first position (rightmost) in any number system?</div>
+        <ul class="options">
+            <li>A. Base^1</li>
+            <li>B. Base^0</li>
+            <li>C. Base^10</li>
+            <li>D. Base^-1</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a49')">Show Answer</button>
+        <div id="a49" class="answer-box">
+            <strong>Answer: B. Base^0</strong>
+            [cite_start]<span class="citation">Source: "5 x 10^0 = 5" (Example of decimal weight) [cite: 791]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">50. How is 1 Kilobyte defined in binary powers?</div>
+        <ul class="options">
+            <li>A. 2^10</li>
+            <li>B. 2^20</li>
+            <li>C. 10^3</li>
+            <li>D. 2^8</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a50')">Show Answer</button>
+        <div id="a50" class="answer-box">
+            <strong>Answer: A. 2^10</strong>
+            [cite_start]<span class="citation">Source: "1 Kilobyte 2^10 Byte" [cite: 1137]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">51. What is the value of 1 Gigabyte in binary powers?</div>
+        <ul class="options">
+            <li>A. 2^10</li>
+            <li>B. 2^20</li>
+            <li>C. 2^30</li>
+            <li>D. 2^40</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a51')">Show Answer</button>
+        <div id="a51" class="answer-box">
+            <strong>Answer: C. 2^30</strong>
+            [cite_start]<span class="citation">Source: "1 Gigabyte 2^30 Byte" [cite: 1137]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">52. Which number system is Base 8?</div>
+        <ul class="options">
+            <li>A. Binary</li>
+            <li>B. Decimal</li>
+            <li>C. Octal</li>
+            <li>D. Hexadecimal</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a52')">Show Answer</button>
+        <div id="a52" class="answer-box">
+            <strong>Answer: C. Octal</strong>
+            [cite_start]<span class="citation">Source: "Octal... Base 8" [cite: 678]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">53. What is the binary representation of Hex F?</div>
+        <ul class="options">
+            <li>A. 1010</li>
+            <li>B. 1100</li>
+            <li>C. 1110</li>
+            <li>D. 1111</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a53')">Show Answer</button>
+        <div id="a53" class="answer-box">
+            <strong>Answer: D. 1111</strong>
+            [cite_start]<span class="citation">Source: "F ... 1111" [cite: 802]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">54. What is the binary equivalent of Octal 7?</div>
+        <ul class="options">
+            <li>A. 111</li>
+            <li>B. 101</li>
+            <li>C. 110</li>
+            <li>D. 100</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a54')">Show Answer</button>
+        <div id="a54" class="answer-box">
+            <strong>Answer: A. 111</strong>
+            [cite_start]<span class="citation">Source: "7 ... 111" [cite: 799]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">55. How many output lines does a 4-to-16 Decoder have?</div>
+        <ul class="options">
+            <li>A. 4</li>
+            <li>B. 8</li>
+            <li>C. 16</li>
+            <li>D. 32</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a55')">Show Answer</button>
+        <div id="a55" class="answer-box">
+            <strong>Answer: C. 16</strong>
+            [cite_start]<span class="citation">Source: "4-to-16 Decoder Circuit... (2^4=16 output lines)" [cite: 1144]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">56. What comes after Tera (T) in the powers of 2 hierarchy?</div>
+        <ul class="options">
+            <li>A. Giga</li>
+            <li>B. Peta</li>
+            <li>C. Exa</li>
+            <li>D. Zetta</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a56')">Show Answer</button>
+        <div id="a56" class="answer-box">
+            <strong>Answer: B. Peta</strong>
+            [cite_start]<span class="citation">Source: "1 Terabyte 2^40... 1 Petabyte 2^50" [cite: 1137]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">57. In binary multiplication, what is 1 x 0?</div>
+        <ul class="options">
+            <li>A. 1</li>
+            <li>B. 0</li>
+            <li>C. 10</li>
+            <li>D. Undefined</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a57')">Show Answer</button>
+        <div id="a57" class="answer-box">
+            <strong>Answer: B. 0</strong>
+            <span class="citation">Source: (Binary multiplication logic derived from slides 992-1019)</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">58. How do you calculate the value of a fraction in binary (e.g., 0.1)?</div>
+        <ul class="options">
+            <li>A. 1 x 2^1</li>
+            <li>B. 1 x 2^-1</li>
+            <li>C. 1 x 10^-1</li>
+            <li>D. 1 x 0</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a58')">Show Answer</button>
+        <div id="a58" class="answer-box">
+            <strong>Answer: B. 1 x 2^-1</strong>
+            [cite_start]<span class="citation">Source: "1 x 2^-1 = 0.5" [cite: 1020]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">59. What method is used to convert Decimal to Binary?</div>
+        <ul class="options">
+            <li>A. Divide by 2 and keep track of remainders</li>
+            <li>B. Multiply by 2</li>
+            <li>C. Divide by 10</li>
+            <li>D. Group by 4s</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a59')">Show Answer</button>
+        <div id="a59" class="answer-box">
+            <strong>Answer: A. Divide by 2 and keep track of remainders</strong>
+            [cite_start]<span class="citation">Source: "Decimal to Binary Technique: Divide by two, keep track of the remainder" [cite: 793]</span>
+        </div>
+    </div>
+
+    <div class="question-card">
+        <div class="question-text">60. What is the binary of 5?</div>
+        <ul class="options">
+            <li>A. 100</li>
+            <li>B. 101</li>
+            <li>C. 110</li>
+            <li>D. 111</li>
+        </ul>
+        <button class="btn-answer" onclick="toggleAnswer('a60')">Show Answer</button>
+        <div id="a60" class="answer-box">
+            <strong>Answer: B. 101</strong>
+            [cite_start]<span class="citation">Source: "5 ... 101" [cite: 799]</span>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(id) {
+            var answerDiv = document.getElementById(id);
+            var btn = answerDiv.previousElementSibling;
+            if (answerDiv.style.display === "block") {
+                answerDiv.style.display = "none";
+                btn.textContent = "Show Answer";
+            } else {
+                answerDiv.style.display = "block";
+                btn.textContent = "Hide Answer";
+            }
+        }
+    </script>
+</body>
+</html>
