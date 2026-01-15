@@ -14,10 +14,24 @@
             margin: 0 auto;
             padding: 20px;
         }
-        h1 {
+        .header-section {
             text-align: center;
-            color: #2c3e50;
             margin-bottom: 40px;
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        .student-name {
+            color: #27ae60;
+            font-size: 1.5em;
+            font-weight: bold;
+            margin-top: 10px;
+            font-family: 'Arial', sans-serif;
         }
         h2 {
             color: #e67e22;
@@ -80,8 +94,12 @@
 </head>
 <body>
 
-    <h1>60 Questions: Computer Fundamentals</h1>
-    <p style="text-align: center;">Based on Chapters 2, 3, and 4.</p>
+    <div class="header-section">
+        <h1>60 Questions: Computer Fundamentals</h1>
+        <div class="student-name">إعداد الطالب: قيس الجازي</div>
+        <p>Prepared by Student: Qais Al-Jazi</p>
+        <p>Based on Chapters 2, 3, and 4 (Software, Hardware, Number Systems)</p>
+    </div>
 
     <h2>Chapter 4: Computer Software</h2>
 
@@ -96,7 +114,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a1')">Show Answer</button>
         <div id="a1" class="answer-box">
             <strong>Answer: B. Software</strong>
-            [cite_start]<span class="citation">Source: "These instructions, called programs or software..." [cite: 593]</span>
+            <span class="citation">Source: "These instructions, called programs or software..."</span>
         </div>
     </div>
 
@@ -111,7 +129,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a2')">Show Answer</button>
         <div id="a2" class="answer-box">
             <strong>Answer: C. Software development is slow, complex, and manual</strong>
-            [cite_start]<span class="citation">Source: "The software development process is usually slow, complex, error prone and expensive." [cite: 599]</span>
+            <span class="citation">Source: "The software development process is usually slow, complex, error prone and expensive."</span>
         </div>
     </div>
 
@@ -126,7 +144,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a3')">Show Answer</button>
         <div id="a3" class="answer-box">
             <strong>Answer: B. Organizations unable to develop software fast enough to keep up with changing conditions</strong>
-            [cite_start]<span class="citation">Source: "Organizations are unable to develop new software applications fast enough to keep up with rapidly changing business conditions..." [cite: 601]</span>
+            <span class="citation">Source: "Organizations are unable to develop new software applications fast enough to keep up with rapidly changing business conditions..."</span>
         </div>
     </div>
 
@@ -141,7 +159,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a4')">Show Answer</button>
         <div id="a4" class="answer-box">
             <strong>Answer: C. Assembly Code</strong>
-            [cite_start]<span class="citation">Source: "Assembly Code is the most basic of abstraction." [cite: 607]</span>
+            <span class="citation">Source: "Assembly Code is the most basic of abstraction."</span>
         </div>
     </div>
 
@@ -156,7 +174,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a5')">Show Answer</button>
         <div id="a5" class="answer-box">
             <strong>Answer: C. Fast, low power, and fewer instructions</strong>
-            [cite_start]<span class="citation">Source: "RISC... (fast + low power + less number of instructions)" [cite: 608]</span>
+            <span class="citation">Source: "RISC... (fast + low power + less number of instructions)"</span>
         </div>
     </div>
 
@@ -171,7 +189,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a6')">Show Answer</button>
         <div id="a6" class="answer-box">
             <strong>Answer: B. To provide a link between software and hardware</strong>
-            [cite_start]<span class="citation">Source: "The purpose of this system is to give software a link to the hardware." [cite: 611]</span>
+            <span class="citation">Source: "The purpose of this system is to give software a link to the hardware."</span>
         </div>
     </div>
 
@@ -186,7 +204,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a7')">Show Answer</button>
         <div id="a7" class="answer-box">
             <strong>Answer: C. On a ROM-chip (Firmware)</strong>
-            [cite_start]<span class="citation">Source: "BIOS... is a small program permanently stored on a ROM-chip... called firmware" [cite: 610, 612]</span>
+            <span class="citation">Source: "BIOS... is a small program permanently stored on a ROM-chip... called firmware"</span>
         </div>
     </div>
 
@@ -201,7 +219,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a8')">Show Answer</button>
         <div id="a8" class="answer-box">
             <strong>Answer: B. Translate generic program instructions into instructions for specific hardware</strong>
-            [cite_start]<span class="citation">Source: "Drivers are small programs that translate the program’s generic instructions into instructions for a specific piece of hardware" [cite: 616]</span>
+            <span class="citation">Source: "Drivers are small programs that translate the program’s generic instructions into instructions for a specific piece of hardware"</span>
         </div>
     </div>
 
@@ -216,7 +234,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a9')">Show Answer</button>
         <div id="a9" class="answer-box">
             <strong>Answer: B. Antivirus software</strong>
-            [cite_start]<span class="citation">Source: "Antivirus utilities to protect your system from viruses." [cite: 622]</span>
+            <span class="citation">Source: "Antivirus utilities to protect your system from viruses."</span>
         </div>
     </div>
 
@@ -231,7 +249,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a10')">Show Answer</button>
         <div id="a10" class="answer-box">
             <strong>Answer: C. Xerox</strong>
-            [cite_start]<span class="citation">Source: "Developed at a company called Xerox, in the 70s..." [cite: 625]</span>
+            <span class="citation">Source: "Developed at a company called Xerox, in the 70s..."</span>
         </div>
     </div>
 
@@ -246,7 +264,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a11')">Show Answer</button>
         <div id="a11" class="answer-box">
             <strong>Answer: C. Pen-based interface</strong>
-            [cite_start]<span class="citation">Source: "Pen-based interface... You use a stylus to write on the screen" [cite: 629, 630]</span>
+            <span class="citation">Source: "Pen-based interface... You use a stylus to write on the screen"</span>
         </div>
     </div>
 
@@ -261,7 +279,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a12')">Show Answer</button>
         <div id="a12" class="answer-box">
             <strong>Answer: B. Java</strong>
-            [cite_start]<span class="citation">Source: "Examples: Java, Fortran, C++..." [cite: 633]</span>
+            <span class="citation">Source: "Examples: Java, Fortran, C++..."</span>
         </div>
     </div>
 
@@ -276,7 +294,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a13')">Show Answer</button>
         <div id="a13" class="answer-box">
             <strong>Answer: B. General tasks used by almost everyone (e.g., Word Processing)</strong>
-            [cite_start]<span class="citation">Source: "Horizontal Market Applications: These are used to perform basic and general tasks, they can be used almost by everyone..." [cite: 635]</span>
+            <span class="citation">Source: "Horizontal Market Applications: These are used to perform basic and general tasks, they can be used almost by everyone..."</span>
         </div>
     </div>
 
@@ -291,7 +309,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a14')">Show Answer</button>
         <div id="a14" class="answer-box">
             <strong>Answer: B. Vertical Market Application</strong>
-            [cite_start]<span class="citation">Source: "Vertical Market Applications... Examples: Ticket Reservation & Selling - Airline Industry" [cite: 639]</span>
+            <span class="citation">Source: "Vertical Market Applications... Examples: Ticket Reservation & Selling - Airline Industry"</span>
         </div>
     </div>
 
@@ -306,7 +324,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a15')">Show Answer</button>
         <div id="a15" class="answer-box">
             <strong>Answer: B. Software written specifically for a company's unique needs</strong>
-            [cite_start]<span class="citation">Source: "Such companies decide to write (code) its own applications..." [cite: 641]</span>
+            <span class="citation">Source: "Such companies decide to write (code) its own applications..."</span>
         </div>
     </div>
 
@@ -321,7 +339,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a16')">Show Answer</button>
         <div id="a16" class="answer-box">
             <strong>Answer: C. Distributed for free/low fee for users to try before buying</strong>
-            [cite_start]<span class="citation">Source: "Shareware are programs... distributed to be used by users for free or by little registration-fee." [cite: 643]</span>
+            <span class="citation">Source: "Shareware are programs... distributed to be used by users for free or by little registration-fee."</span>
         </div>
     </div>
 
@@ -336,7 +354,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a17')">Show Answer</button>
         <div id="a17" class="answer-box">
             <strong>Answer: B. Freeware retains copyright; Public Domain has no restrictions.</strong>
-            [cite_start]<span class="citation">Source: "Freeware: Software to which the author... still retains copyright (unlike public domain)..." [cite: 645, 646]</span>
+            <span class="citation">Source: "Freeware: Software to which the author... still retains copyright (unlike public domain)..."</span>
         </div>
     </div>
 
@@ -351,7 +369,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a18')">Show Answer</button>
         <div id="a18" class="answer-box">
             <strong>Answer: B. The source code is available for modification and redistribution</strong>
-            [cite_start]<span class="citation">Source: "Open source means that the source code is available to all potential users, and they are free to use, modify..." [cite: 648]</span>
+            <span class="citation">Source: "Open source means that the source code is available to all potential users, and they are free to use, modify..."</span>
         </div>
     </div>
 
@@ -366,7 +384,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a19')">Show Answer</button>
         <div id="a19" class="answer-box">
             <strong>Answer: C. The Compiler</strong>
-            [cite_start]<span class="citation">Source: "...the 'Compiler' translates almost human syntax into lower level code." [cite: 633]</span>
+            <span class="citation">Source: "...the 'Compiler' translates almost human syntax into lower level code."</span>
         </div>
     </div>
 
@@ -381,7 +399,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a20')">Show Answer</button>
         <div id="a20" class="answer-box">
             <strong>Answer: B. Linux</strong>
-            [cite_start]<span class="citation">Source: "Examples: ... Linux, HP Unix, Sun Solaris..." [cite: 609]</span>
+            <span class="citation">Source: "Examples: ... Linux, HP Unix, Sun Solaris..."</span>
         </div>
     </div>
 
@@ -398,7 +416,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a21')">Show Answer</button>
         <div id="a21" class="answer-box">
             <strong>Answer: C. Motherboard</strong>
-            [cite_start]<span class="citation">Source: "This is the main circuit board that all of the other internal components connect to." [cite: 1073]</span>
+            <span class="citation">Source: "This is the main circuit board that all of the other internal components connect to."</span>
         </div>
     </div>
 
@@ -413,7 +431,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a22')">Show Answer</button>
         <div id="a22" class="answer-box">
             <strong>Answer: D. Keyboard</strong>
-            [cite_start]<span class="citation">Source: "Keyboards... Standard Keyboard (considered as the Standard-Input-Unit)" [cite: 1078]</span>
+            <span class="citation">Source: "Keyboards... Standard Keyboard (considered as the Standard-Input-Unit)"</span>
         </div>
     </div>
 
@@ -428,7 +446,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a23')">Show Answer</button>
         <div id="a23" class="answer-box">
             <strong>Answer: B. Repetitive Stress Injuries (Carpal Tunnel Syndrome)</strong>
-            [cite_start]<span class="citation">Source: "Intensive use may cause problems: “Repetitive Stress Injuries” (Carpal Tunnel Syndrome)." [cite: 1078]</span>
+            <span class="citation">Source: "Intensive use may cause problems: “Repetitive Stress Injuries” (Carpal Tunnel Syndrome)."</span>
         </div>
     </div>
 
@@ -443,7 +461,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a24')">Show Answer</button>
         <div id="a24" class="answer-box">
             <strong>Answer: B. Pointing Device</strong>
-            [cite_start]<span class="citation">Source: "Pointing devices include: ... Trackball (Up-side-down mouse)." [cite: 1088]</span>
+            <span class="citation">Source: "Pointing devices include: ... Trackball (Up-side-down mouse)."</span>
         </div>
     </div>
 
@@ -458,7 +476,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a25')">Show Answer</button>
         <div id="a25" class="answer-box">
             <strong>Answer: B. Optical Character Recognition</strong>
-            [cite_start]<span class="citation">Source: "Use Optical-Character-Recognition (OCR) software" [cite: 1092]</span>
+            <span class="citation">Source: "Use Optical-Character-Recognition (OCR) software"</span>
         </div>
     </div>
 
@@ -473,7 +491,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a26')">Show Answer</button>
         <div id="a26" class="answer-box">
             <strong>Answer: C. MICR (Magnetic Ink Character Reader)</strong>
-            [cite_start]<span class="citation">Source: "Magnetic Ink Character Reader (MICR)... Mostly, is used in the banking industry." [cite: 1108]</span>
+            <span class="citation">Source: "Magnetic Ink Character Reader (MICR)... Mostly, is used in the banking industry."</span>
         </div>
     </div>
 
@@ -488,7 +506,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a27')">Show Answer</button>
         <div id="a27" class="answer-box">
             <strong>Answer: A. OMR (Optical Mark Reader)</strong>
-            [cite_start]<span class="citation">Source: "Optical Mark Reader... detecting the presence of pencil marks on a predetermined grid" [cite: 1106]</span>
+            <span class="citation">Source: "Optical Mark Reader... detecting the presence of pencil marks on a predetermined grid"</span>
         </div>
     </div>
 
@@ -503,7 +521,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a28')">Show Answer</button>
         <div id="a28" class="answer-box">
             <strong>Answer: C. RAM</strong>
-            [cite_start]<span class="citation">Source: "Random Access Memory (RAM)... Virtual Memory (volatile)" [cite: 1182]</span>
+            <span class="citation">Source: "Random Access Memory (RAM)... Virtual Memory (volatile)"</span>
         </div>
     </div>
 
@@ -518,7 +536,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a29')">Show Answer</button>
         <div id="a29" class="answer-box">
             <strong>Answer: C. 2^50 Bytes</strong>
-            [cite_start]<span class="citation">Source: "1 Petabyte 2^50 Byte" [cite: 1137]</span>
+            <span class="citation">Source: "1 Petabyte 2^50 Byte"</span>
         </div>
     </div>
 
@@ -533,7 +551,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a30')">Show Answer</button>
         <div id="a30" class="answer-box">
             <strong>Answer: B. MAR (Memory Address Register)</strong>
-            [cite_start]<span class="citation">Source: "MAR: Memory Address Register... Load the address into MAR." [cite: 1140]</span>
+            <span class="citation">Source: "MAR: Memory Address Register... Load the address into MAR."</span>
         </div>
     </div>
 
@@ -548,7 +566,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a31')">Show Answer</button>
         <div id="a31" class="answer-box">
             <strong>Answer: C. Faster, closer to CPU, stores frequently used info</strong>
-            [cite_start]<span class="citation">Source: "Cache Memory... Closer to CPU & faster than RAM... Used to store information... used most often" [cite: 1146]</span>
+            <span class="citation">Source: "Cache Memory... Closer to CPU & faster than RAM... Used to store information... used most often"</span>
         </div>
     </div>
 
@@ -563,7 +581,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a32')">Show Answer</button>
         <div id="a32" class="answer-box">
             <strong>Answer: B. EPROM</strong>
-            [cite_start]<span class="citation">Source: "EPROM: Erasable PROM, can reprogrammed..." [cite: 1152]</span>
+            <span class="citation">Source: "EPROM: Erasable PROM, can reprogrammed..."</span>
         </div>
     </div>
 
@@ -578,7 +596,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a33')">Show Answer</button>
         <div id="a33" class="answer-box">
             <strong>Answer: B. By changing the polarity of magnetic particles</strong>
-            [cite_start]<span class="citation">Source: "...change the polarity of tiny magnetic particles on the surface... to record 0s & 1s." [cite: 1159]</span>
+            <span class="citation">Source: "...change the polarity of tiny magnetic particles on the surface... to record 0s & 1s."</span>
         </div>
     </div>
 
@@ -593,7 +611,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a34')">Show Answer</button>
         <div id="a34" class="answer-box">
             <strong>Answer: B. Pits (dark) and Lands (shiny)</strong>
-            [cite_start]<span class="citation">Source: "Optical storage devices use a laser to burn small, dark pits... Pits reflect less light." [cite: 1161]</span>
+            <span class="citation">Source: "Optical storage devices use a laser to burn small, dark pits... Pits reflect less light."</span>
         </div>
     </div>
 
@@ -608,7 +626,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a35')">Show Answer</button>
         <div id="a35" class="answer-box">
             <strong>Answer: C. It has no moving parts and is faster than mechanical disks</strong>
-            [cite_start]<span class="citation">Source: "They have no moving parts → much faster than mechanically operated disks..." [cite: 1175]</span>
+            <span class="citation">Source: "They have no moving parts → much faster than mechanically operated disks..."</span>
         </div>
     </div>
 
@@ -623,7 +641,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a36')">Show Answer</button>
         <div id="a36" class="answer-box">
             <strong>Answer: C. DVD</strong>
-            [cite_start]<span class="citation">Source: "DVD-Discs may store up to 4.7 GB on a single-sided..." [cite: 1169]</span>
+            <span class="citation">Source: "DVD-Discs may store up to 4.7 GB on a single-sided..."</span>
         </div>
     </div>
 
@@ -638,7 +656,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a37')">Show Answer</button>
         <div id="a37" class="answer-box">
             <strong>Answer: B. Tracks</strong>
-            [cite_start]<span class="citation">Source: [Diagram referencing Tracks, Sectors, Platters] [cite: 1181]</span>
+            <span class="citation">Source: [Diagram referencing Tracks, Sectors, Platters]</span>
         </div>
     </div>
 
@@ -653,7 +671,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a38')">Show Answer</button>
         <div id="a38" class="answer-box">
             <strong>Answer: A. Digital Camera</strong>
-            [cite_start]<span class="citation">Source: "Digital Camera can capture images using the receptors called Charge-Coupled-Devices (CCD)" [cite: 1115]</span>
+            <span class="citation">Source: "Digital Camera can capture images using the receptors called Charge-Coupled-Devices (CCD)"</span>
         </div>
     </div>
 
@@ -668,7 +686,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a39')">Show Answer</button>
         <div id="a39" class="answer-box">
             <strong>Answer: B. Copies contents of a memory location into the MDR</strong>
-            [cite_start]<span class="citation">Source: "Fetch (address)... Copy the contents of that memory location into MDR." [cite: 1141]</span>
+            <span class="citation">Source: "Fetch (address)... Copy the contents of that memory location into MDR."</span>
         </div>
     </div>
 
@@ -683,7 +701,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a40')">Show Answer</button>
         <div id="a40" class="answer-box">
             <strong>Answer: C. Input/Output simulation (giving the feeling of a different space)</strong>
-            [cite_start]<span class="citation">Source: "Virtual Reality gives you the feeling that you are experiencing a different space..." [cite: 1119]</span>
+            <span class="citation">Source: "Virtual Reality gives you the feeling that you are experiencing a different space..."</span>
         </div>
     </div>
 
@@ -700,7 +718,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a41')">Show Answer</button>
         <div id="a41" class="answer-box">
             <strong>Answer: C. 2</strong>
-            [cite_start]<span class="citation">Source: "Binary... Symbols 0, 1" [cite: 677]</span>
+            <span class="citation">Source: "Binary... Symbols 0, 1"</span>
         </div>
     </div>
 
@@ -715,7 +733,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a42')">Show Answer</button>
         <div id="a42" class="answer-box">
             <strong>Answer: C. 0-9 and A-F</strong>
-            [cite_start]<span class="citation">Source: "Hexadecimal... Symbols 0-9, A-F" [cite: 679]</span>
+            <span class="citation">Source: "Hexadecimal... Symbols 0-9, A-F"</span>
         </div>
     </div>
 
@@ -730,7 +748,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a43')">Show Answer</button>
         <div id="a43" class="answer-box">
             <strong>Answer: B. 25</strong>
-            [cite_start]<span class="citation">Source: "Quick Example 25(10) = 11001(2)" [cite: 791]</span>
+            <span class="citation">Source: "Quick Example 25(10) = 11001(2)"</span>
         </div>
     </div>
 
@@ -760,7 +778,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a45')">Show Answer</button>
         <div id="a45" class="answer-box">
             <strong>Answer: C. C</strong>
-            [cite_start]<span class="citation">Source: "12 = C" [cite: 792]</span>
+            <span class="citation">Source: "12 = C"</span>
         </div>
     </div>
 
@@ -775,7 +793,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a46')">Show Answer</button>
         <div id="a46" class="answer-box">
             <strong>Answer: B. 3</strong>
-            [cite_start]<span class="citation">Source: "Group bits in threes, starting on right" [cite: 808]</span>
+            <span class="citation">Source: "Group bits in threes, starting on right"</span>
         </div>
     </div>
 
@@ -790,7 +808,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a47')">Show Answer</button>
         <div id="a47" class="answer-box">
             <strong>Answer: C. 4</strong>
-            [cite_start]<span class="citation">Source: "Group bits in fours, starting on right" [cite: 810]</span>
+            <span class="citation">Source: "Group bits in fours, starting on right"</span>
         </div>
     </div>
 
@@ -805,7 +823,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a48')">Show Answer</button>
         <div id="a48" class="answer-box">
             <strong>Answer: A. 43</strong>
-            [cite_start]<span class="citation">Source: "Binary to Decimal Example 101011(2) => ... = 43(10)" [cite: 791, 792]</span>
+            <span class="citation">Source: "Binary to Decimal Example 101011(2) => ... = 43(10)"</span>
         </div>
     </div>
 
@@ -820,7 +838,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a49')">Show Answer</button>
         <div id="a49" class="answer-box">
             <strong>Answer: B. Base^0</strong>
-            [cite_start]<span class="citation">Source: "5 x 10^0 = 5" (Example of decimal weight) [cite: 791]</span>
+            <span class="citation">Source: "5 x 10^0 = 5" (Example of decimal weight)</span>
         </div>
     </div>
 
@@ -835,7 +853,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a50')">Show Answer</button>
         <div id="a50" class="answer-box">
             <strong>Answer: A. 2^10</strong>
-            [cite_start]<span class="citation">Source: "1 Kilobyte 2^10 Byte" [cite: 1137]</span>
+            <span class="citation">Source: "1 Kilobyte 2^10 Byte"</span>
         </div>
     </div>
 
@@ -850,7 +868,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a51')">Show Answer</button>
         <div id="a51" class="answer-box">
             <strong>Answer: C. 2^30</strong>
-            [cite_start]<span class="citation">Source: "1 Gigabyte 2^30 Byte" [cite: 1137]</span>
+            <span class="citation">Source: "1 Gigabyte 2^30 Byte"</span>
         </div>
     </div>
 
@@ -865,7 +883,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a52')">Show Answer</button>
         <div id="a52" class="answer-box">
             <strong>Answer: C. Octal</strong>
-            [cite_start]<span class="citation">Source: "Octal... Base 8" [cite: 678]</span>
+            <span class="citation">Source: "Octal... Base 8"</span>
         </div>
     </div>
 
@@ -880,7 +898,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a53')">Show Answer</button>
         <div id="a53" class="answer-box">
             <strong>Answer: D. 1111</strong>
-            [cite_start]<span class="citation">Source: "F ... 1111" [cite: 802]</span>
+            <span class="citation">Source: "F ... 1111"</span>
         </div>
     </div>
 
@@ -895,7 +913,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a54')">Show Answer</button>
         <div id="a54" class="answer-box">
             <strong>Answer: A. 111</strong>
-            [cite_start]<span class="citation">Source: "7 ... 111" [cite: 799]</span>
+            <span class="citation">Source: "7 ... 111"</span>
         </div>
     </div>
 
@@ -910,7 +928,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a55')">Show Answer</button>
         <div id="a55" class="answer-box">
             <strong>Answer: C. 16</strong>
-            [cite_start]<span class="citation">Source: "4-to-16 Decoder Circuit... (2^4=16 output lines)" [cite: 1144]</span>
+            <span class="citation">Source: "4-to-16 Decoder Circuit... (2^4=16 output lines)"</span>
         </div>
     </div>
 
@@ -925,7 +943,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a56')">Show Answer</button>
         <div id="a56" class="answer-box">
             <strong>Answer: B. Peta</strong>
-            [cite_start]<span class="citation">Source: "1 Terabyte 2^40... 1 Petabyte 2^50" [cite: 1137]</span>
+            <span class="citation">Source: "1 Terabyte 2^40... 1 Petabyte 2^50"</span>
         </div>
     </div>
 
@@ -955,7 +973,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a58')">Show Answer</button>
         <div id="a58" class="answer-box">
             <strong>Answer: B. 1 x 2^-1</strong>
-            [cite_start]<span class="citation">Source: "1 x 2^-1 = 0.5" [cite: 1020]</span>
+            <span class="citation">Source: "1 x 2^-1 = 0.5"</span>
         </div>
     </div>
 
@@ -970,7 +988,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a59')">Show Answer</button>
         <div id="a59" class="answer-box">
             <strong>Answer: A. Divide by 2 and keep track of remainders</strong>
-            [cite_start]<span class="citation">Source: "Decimal to Binary Technique: Divide by two, keep track of the remainder" [cite: 793]</span>
+            <span class="citation">Source: "Decimal to Binary Technique: Divide by two, keep track of the remainder"</span>
         </div>
     </div>
 
@@ -985,7 +1003,7 @@
         <button class="btn-answer" onclick="toggleAnswer('a60')">Show Answer</button>
         <div id="a60" class="answer-box">
             <strong>Answer: B. 101</strong>
-            [cite_start]<span class="citation">Source: "5 ... 101" [cite: 799]</span>
+            <span class="citation">Source: "5 ... 101"</span>
         </div>
     </div>
 
